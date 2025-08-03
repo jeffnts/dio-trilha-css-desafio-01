@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 605px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%),
+              url('assets/images/image.png') no-repeat center top;
+  background-size: cover;
+  border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  position: relative;
+  width: 268px;
+  height: 268px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 248px;
+  height: 214px;
+  object-fit: contain;
+}
+
+.banner h1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.banner button {
+  padding: 19px 91px;
+  background: transparent;
+  border: 1px solid #33A8DB;
+  color: #31A8DD;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0.21em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.banner button:hover {
+  background-color: #33A8DB;
+  color: #000;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 40px 20px;
+}
+
+#course-content {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.modules-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.module {
+  background: #1a1a1a;
+  border: 1px solid #33A8DB;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+#transform-world {
+  margin: 60px 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  color: #33A8DB;
+}
+
+#professional-challenges {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+#professional-challenges img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 40px 20px;
+  border-top: 1px solid #33A8DB;
+  text-align: center;
+}
+
+footer .dio-logo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #33A8DB;
+  text-decoration: none;
+}
